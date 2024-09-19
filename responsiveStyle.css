@@ -1,0 +1,248 @@
+@media only screen and (max-width: 900px) { 
+    .container{
+        max-width: 100%;
+        border: .1rem solid hsl(0, 0%, 100%);
+        width: 20rem;
+        height: 36rem;
+        border-radius: 1.2rem;
+        background-color: hsl(0, 0%, 100%);
+        margin: 3rem auto;
+    }
+
+    input[type="number"] {  
+        margin: .2rem 0rem 0rem .3rem;
+        background-color: hsl(189, 41%, 97%); 
+        border: .15rem solid transparent;
+        width: 15.6rem;
+        height: 1.8rem;
+        border-radius: .2rem;
+        cursor: pointer;
+        font-family: 'Space Mono', monospace;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    #dollar{
+        margin: -1.7rem 0rem 0rem -13.8rem;
+    }
+
+    #five-percent{
+        display: flex;
+        max-width: 100%;
+        border: .1rem solid hsl(183, 100%, 15%);
+        width: 7.5rem;
+        height: 2.2rem;
+        border-radius: .3rem;
+        background-color: hsl(183, 100%, 15%);
+        margin: .8rem 0rem 0rem 2.1rem;
+        color: hsl(0, 0%, 100%);
+        font-family: 'Space Mono', monospace;
+        font-weight: 700;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        cursor: pointer;
+    }
+
+    #ten-percent{
+        display: flex;
+        max-width: 100%;
+        border: .1rem solid hsl(183, 100%, 15%);
+        width: 7.5rem;
+        height: 2.2rem;
+        border-radius: .3rem;
+        background-color: hsl(183, 100%, 15%);
+        margin: -2.2rem 0rem 0rem 10.5rem;
+        color: hsl(0, 0%, 100%);
+        font-family: 'Space Mono', monospace;
+        font-weight: 700;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        cursor: pointer;
+    }
+
+    #fifteen-percent{
+        display: flex;
+        max-width: 100%;
+        border: .1rem solid hsl(183, 100%, 15%);
+        width: 7.5rem;
+        height: 2.2rem;
+        border-radius: .3rem;
+        background-color: hsl(183, 100%, 15%);
+        margin: .8rem 0rem 0rem 2.1rem;
+        color: hsl(0, 0%, 100%);
+        font-family: 'Space Mono', monospace;
+        font-weight: 700;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        cursor: pointer;
+    }
+    
+    #twenty-five-percent{
+        display: flex;
+        max-width: 100%;
+        border: .1rem solid hsl(183, 100%, 15%);
+        width: 7.5rem;
+        height: 2.2rem;
+        border-radius: .3rem;
+        background-color: hsl(183, 100%, 15%);
+        margin: -2.2rem 0rem 0rem 10.5rem;
+        color: hsl(0, 0%, 100%);
+        font-family: 'Space Mono', monospace;
+        font-weight: 700;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        cursor: pointer;
+    }
+
+    #fifty-percent{
+        display: flex;
+        max-width: 100%;
+        border: .1rem solid hsl(183, 100%, 15%);
+        width: 7.5rem;
+        height: 2.2rem;
+        border-radius: .3rem;
+        background-color: hsl(183, 100%, 15%);
+        margin: .8rem 0rem 0rem 2.1rem;
+        color: hsl(0, 0%, 100%);
+        font-family: 'Space Mono', monospace;
+        font-weight: 700;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        cursor: pointer;
+    }
+
+    #custom{
+        display: flex;
+        max-width: 100%;
+        border: .1rem solid hsl(183, 100%, 15%);
+        width: 7.5rem;
+        height: 2.2rem;
+        border-radius: .3rem;
+        background-color: hsl(189, 41%, 97%);
+        margin: -2.2rem 0rem 0rem 10.5rem;
+        color: hsl(183, 100%, 15%);
+        font-family: 'Space Mono', monospace;
+        font-weight: 700;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        cursor: pointer;
+    }
+
+    #customValue{
+        display: flex;
+        max-width: 100%;
+        border: .1rem solid hsl(183, 100%, 15%);
+        width: 5rem;
+        height: 2.2rem;
+        border-radius: .3rem;
+        background-color: transparent;
+        margin: -2rem 0rem 0rem 13.4rem;
+        color: hsl(183, 100%, 15%);
+        font-family: 'Space Mono', monospace;
+        font-weight: 700;
+        text-align: center;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    #number-people-amount{
+        margin-top: 1.5rem;
+    }
+
+    #person{
+        margin: -1.7rem 0rem 0rem -13.8rem;
+    }
+
+    .sub-container{
+        display: flex;
+        max-width: 100%;
+        border: .1rem solid hsl(183, 100%, 15%);
+        width: 17rem;
+        height: 10.2rem;
+        border-radius: .8rem;
+        background-color: hsl(183, 100%, 15%);
+        margin: 1.3rem 0rem 0rem 1.5rem;
+    }
+
+    #tip-amount{
+        color: hsl(0, 0%, 100%);
+        font-weight: 300;
+        font-size: .7rem;
+        margin: 1rem 0rem 0rem 1.5rem;
+    }
+    
+    #person1{
+        color: hsl(186, 14%, 43%);
+        font-weight: 300;
+        font-size: .7rem;
+        margin: 2rem 0rem 0rem -4.4rem;
+    }
+
+    #money{
+        position: absolute;
+        color: hsl(172, 67%, 45%);
+        margin: .8rem 0rem 0rem 8.5rem;
+        font-size: 2.3rem;
+    }
+
+    #money2{
+        position: absolute;
+        color: hsl(172, 67%, 45%);
+        margin: 4rem 0rem 0rem 8.5rem;
+        font-size: 2.3rem;
+    }
+
+    #tip-amount-num{
+        position: absolute;
+        color: hsl(172, 67%, 45%);
+        margin: .7rem 0rem 0rem 10rem;
+        font-size: 2.3rem;
+    }
+
+    #total{
+        color: hsl(0, 0%, 100%);
+        font-weight: 300;
+        font-size: .7rem;
+        margin: 4.5rem 0rem 0rem -3.21rem;
+    }
+
+    #person2{
+        color: hsl(186, 14%, 43%);
+        font-weight: 300;
+        font-size: .7rem;
+        margin: 5.5rem 0rem 0rem -2.5rem;
+    }
+    
+    #total-amount{
+        position: absolute;
+        color: hsl(172, 67%, 45%);
+        margin: 4rem 0rem 0rem 10rem;
+        font-size: 2.3rem;
+    }
+
+    #reset{
+        display: flex;
+        max-width: 100%;
+        border: .1rem solid hsl(183, 100%, 15%);
+        width: 15rem;
+        height: 2.2rem;
+        border-radius: .2rem;
+        background-color: hsl(172, 67%, 45%);
+        margin: 7.2rem 0rem 0rem -3.7rem;
+        color: hsl(0, 0%, 100%);
+        font-family: 'Space Mono', monospace;
+        font-weight: 700;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}

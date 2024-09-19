@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body{
+    background-color: hsl(185, 41%, 84%);
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+}
+
+p{
+    font-weight: 700;
+    color: hsl(183, 100%, 15%);
+    font-size: .8rem;
+}
+
+#logo{
+    margin-top: 5rem;
+}
+
+.container{
+    max-width: 100%;
+    border: .1rem solid hsl(0, 0%, 100%);
+    width: 42rem;
+    height: 22rem;
+    border-radius: 1.2rem;
+    background-color: hsl(0, 0%, 100%);
+    margin: 3rem auto;
+}
+
+#bill{
+    display: flex;
+    justify-content: flex-start;
+    margin: 2.5rem 0rem 0rem 2rem;
+}
+
+#bill-amount{
+    color: hsl(183, 100%, 15%);
+}
+
+#bill-amount::placeholder{
+    color: hsl(185, 41%, 84%);
+}
+
+input[type="number"] {  
+    margin: .2rem 0rem 0rem -20.7rem;
+    background-color: hsl(189, 41%, 97%); 
+    border: .15rem solid transparent;
+    width: 17rem;
+    height: 1.8rem;
+    border-radius: .2rem;
+    cursor: pointer;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+input[type="number"]:focus { 
+    border: .15rem solid hsl(172, 67%, 45%);
+    outline: none;
+}
+
+input{
+    direction: rtl;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#dollar{
+    margin: -1.7rem 0rem 0rem -35rem;
+}
+
+#select-tip{
+    display: flex;
+    justify-content: flex-start;
+    margin: 2rem 0rem 0rem 2rem;
+}
+
+#five-percent{
+    display: flex;
+    max-width: 100%;
+    border: .1rem solid hsl(183, 100%, 15%);
+    width: 5rem;
+    height: 2.2rem;
+    border-radius: .3rem;
+    background-color: hsl(183, 100%, 15%);
+    margin: .8rem 0rem 0rem 2rem;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+#five-percent:hover{
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+#ten-percent{
+    display: flex;
+    max-width: 100%;
+    border: .1rem solid hsl(183, 100%, 15%);
+    width: 5rem;
+    height: 2.2rem;
+    border-radius: .3rem;
+    background-color: hsl(183, 100%, 15%);
+    margin: -2.2rem 0rem 0rem 7.7rem;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+#ten-percent:hover{
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+#fifteen-percent{
+    display: flex;
+    max-width: 100%;
+    border: .1rem solid hsl(183, 100%, 15%);
+    width: 5rem;
+    height: 2.2rem;
+    border-radius: .3rem;
+    background-color: hsl(183, 100%, 15%);
+    margin: -2.2rem 0rem 0rem 13.4rem;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+#fifteen-percent:hover{
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+#twenty-five-percent{
+    display: flex;
+    max-width: 100%;
+    border: .1rem solid hsl(183, 100%, 15%);
+    width: 5rem;
+    height: 2.2rem;
+    border-radius: .3rem;
+    background-color: hsl(183, 100%, 15%);
+    margin: .8rem 0rem 0rem 2rem;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+#twenty-five-percent:hover{
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+#fifty-percent{
+    display: flex;
+    max-width: 100%;
+    border: .1rem solid hsl(183, 100%, 15%);
+    width: 5rem;
+    height: 2.2rem;
+    border-radius: .3rem;
+    background-color: hsl(183, 100%, 15%);
+    margin: -2.2rem 0rem 0rem 7.7rem;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+#fifty-percent:hover{
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+#custom{
+    display: flex;
+    max-width: 100%;
+    border: .1rem solid hsl(183, 100%, 15%);
+    width: 5rem;
+    height: 2.2rem;
+    border-radius: .3rem;
+    background-color: hsl(189, 41%, 97%);
+    margin: -2.2rem 0rem 0rem 13.4rem;
+    color: hsl(183, 100%, 15%);
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#customValue{
+    display: flex;
+    max-width: 100%;
+    border: .1rem solid hsl(183, 100%, 15%);
+    width: 5rem;
+    height: 2.2rem;
+    border-radius: .3rem;
+    background-color: transparent;
+    margin: -2rem 0rem 0rem 15rem;
+    color: hsl(183, 100%, 15%);
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.sub-container{
+    display: flex;
+    max-width: 100%;
+    border: .1rem solid hsl(183, 100%, 15%);
+    width: 18rem;
+    height: 19rem;
+    border-radius: .8rem;
+    background-color: hsl(183, 100%, 15%);
+    margin: -18rem 0rem 0rem 22rem;
+}
+
+#number-people{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2rem;
+}
+
+#number-people-amount{
+    margin-top: 1.5rem;
+    color: hsl(183, 100%, 15%);
+}
+
+#number-people-amount::placeholder{
+    color: hsl(185, 41%, 84%);
+}
+
+#error{
+    display: flex;
+    color: rgb(221, 52, 52);
+    margin: -1.9rem 0rem 0rem 13rem;
+}
+
+#person{
+    margin: -1.7rem 0rem 0rem -34.5rem;
+}
+
+#tip-amount{
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+    font-size: .7rem;
+    margin: 2rem 0rem 0rem 1.5rem;
+}
+
+#person1{
+    color: hsl(186, 14%, 43%);
+    font-weight: 300;
+    font-size: .7rem;
+    margin: 3rem 0rem 0rem -4.4rem;
+}
+
+#money{
+    position: absolute;
+    color: hsl(172, 67%, 45%);
+    margin: 1.3rem 0rem 0rem 8.5rem;
+    font-size: 2.3rem;
+}
+
+#money2{
+    position: absolute;
+    color: hsl(172, 67%, 45%);
+    margin: 6.3rem 0rem 0rem 8.5rem;
+    font-size: 2.3rem;
+}
+
+#tip-amount-num{
+    position: absolute;
+    color: hsl(172, 67%, 45%);
+    margin: 1.3rem 0rem 0rem 10rem;
+    font-size: 2.3rem;
+}
+
+#total-amount{
+    position: absolute;
+    color: hsl(172, 67%, 45%);
+    margin: 6.3rem 0rem 0rem 10rem;
+    font-size: 2.3rem;
+}
+
+#total{
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+    font-size: .7rem;
+    margin: 7rem 0rem 0rem -3.21rem;
+}
+
+#person2{
+    color: hsl(186, 14%, 43%);
+    font-weight: 300;
+    font-size: .7rem;
+    margin: 8rem 0rem 0rem -2.5rem;
+}
+
+#reset{
+    display: flex;
+    max-width: 100%;
+    border: .1rem solid hsl(183, 100%, 15%);
+    width: 15rem;
+    height: 2.2rem;
+    border-radius: .2rem;
+    background-color: hsl(183deg, 85%, 26%);
+    margin: 15rem 0rem 0rem -3.1rem;
+    color: hsl(183, 100%, 15%);
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#reset:hover{
+    background-Color : hsl(172, 67%, 45%);
+    color : hsl(183, 100%, 15%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
